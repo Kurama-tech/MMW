@@ -11,3 +11,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@import "~bootstrap/scss/bootstrap";
+@import './assets/scss/layout.scss';
+@import './assets/scss/style.scss';
+@import './assets/scss/variables.scss';
+@import './assets/scss/default.scss';
+@import './assets/scss/header.scss';
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";

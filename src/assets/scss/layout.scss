@@ -1,0 +1,53 @@
+header {
+    margin: 0 auto;
+
+}
+
+#main {
+    min-height: calc(100vh - 68px);
+    margin-left: auto;
+    margin-right: auto;
+    // padding: 0px 20px 0px 15px;
+    // padding:0px 5px 0px 10px;
+    width: 100%;
+    margin: 0 auto;
+   // background: #ebebeb;
+    font-family: "Poppins", sans-serif;
+    overflow: hidden;
+}
+
+@media screen and (min-width: 1620px) {
+
+    header,
+    #main {
+        //max-width: 1580px;
+        max-width: auto;
+    }
+}
+
+@media screen and (min-width: 1921px) {
+
+    header,
+    #main {
+        max-width: 1780px;
+    }
+}
+
+/** SCROLL BAR CSS **/
+
+body {
+    overflow: hidden;
+    // overflow-y: scroll;
+    overflow-y: auto;
+}
+
+*::-webkit-scrollbar {
+    width: 0.45rem;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #666666;
+    border-radius: 10px;
+}
+
+
